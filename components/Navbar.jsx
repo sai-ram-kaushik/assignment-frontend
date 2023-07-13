@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="flex gap-5">
           <div className="hidden md:flex items-center gap-5 font-poppins">
             {menuList?.map((item, i) => (
-              <div key={i} className="text-2xl hover:text-purple-500">
+              <div key={i} className="text-2xl hover:text-[#F86CF8]">
                 <Link href="{item.link}">{item.name}</Link>
               </div>
             ))}
