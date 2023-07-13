@@ -30,12 +30,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-20 shadow-md z-50">
+    <div className="fixed w-full shadow-md h-20 z-50">
       <div className="flex items-center justify-between px-4 2xl:px-16 m-4">
         <div className="absolute -top-5 md:-top-10 md:left-[500px] -z-50">
           <Image src={ellipse} alt="ellipse" width="" height=""/>
         </div>
-        <div className="flex items-center text-3xl md:text-4xl lg:text-5xl font-orbitron font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F86CF8] to-[#64CEF5]">
+        <div className="flex items-center text-3xl md:text-3xl lg:text-5xl font-orbitron font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#F86CF8] to-[#64CEF5]">
           ZURAVERSE
         </div>
         <div className="flex gap-5">
